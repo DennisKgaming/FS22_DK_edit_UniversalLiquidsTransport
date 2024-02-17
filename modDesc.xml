@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="71">
+    <author>DennisK</author>	
+    <version>1.0.0.0</version>
+	
+    <title>    
+        <en>Universal Liquid Transport DK</en>
+    </title>
+	
+    <description>
+        <en><![CDATA[
+ATTENTION: The pallets of canola oil, olive oil, sunflower oil and grape juice are automatically loaded from the ground when you pass near them. For other products it is necessary to press the "Loading" button.
+
+The pack includes:
+JOSKIN AQUATRANS 7300 S:
+Capacity: 7300 - 14600 l
+Price: 9500$
+
+LIZARD MKS 8:
+Capacity: 8000 - 16000 l
+Price: 25000$
+
+Lizard MKS 16
+- Price : 39250 €
+
+LIZARD MKS 32:
+Capacity: 32000 - 64000 l
+Price: 68000$
+
+]]>
+        </en>
+		
+    </description>
+	
+    <iconFilename>icons/icon_ULT.dds</iconFilename>
+	
+    <multiplayer supported="true"/>
+	
+	<fillTypes filename="xml/fillTypes.xml" /> 
+	
+    <storeItems>
+        <storeItem xmlFilename="xml/aquaTrans7300.xml"/>
+		<storeItem xmlFilename="xml/mks8.xml"/>
+        <storeItem xmlFilename="xml/mks16.xml"/>
+		<storeItem xmlFilename="xml/mks32.xml"/>
+    </storeItems>
+	
+	<l10n>
+        <text name="configuration_valueUnreal">
+            <en>Easier gameplay</en>
+        </text>
+		<text name="JoskinYellow">
+            <en>Joskin Yellow</en>
+        </text>
+		<text name="JoskinGreen">
+            <en>Joskin Green</en>
+        </text>
+        <text name="configuration_securityPart">
+            <en>Collision avoidance</en>
+        </text>
+	</l10n>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+	
+</modDesc>
